@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Project Description: A ReactJS-based to-do list app that allows users to add, edit, and delete tasks, and mark them as complete.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Installation: Clone the project from GitHub using the command git clone https://github.com/<username>/<repository-name>.git and run npm install to install the required dependencies.
 
-## Available Scripts
+Features: The to-do list app will have the following features:
 
-In the project directory, you can run:
+Users can add tasks to the list.
+Users can edit tasks in the list.
+Users can mark tasks as complete.
+Users can delete tasks from the list.
+The app will display the total number of tasks and the number of completed tasks.
+Components: The to-do list app will have the following components:
+App: This will be the main component that will render all other components.
+TaskList: This will display the list of tasks.
+TaskItem: This will display each task in the list.
+AddTaskForm: This will allow users to add tasks to the list.
+EditTaskForm: This will allow users to edit tasks in the list.
+Styling: The to-do list app will have a simple and clean design with a list of tasks on the left, and forms to add and edit tasks on the right.
 
-### `npm start`
+Data Flow: When a user adds a task using the AddTaskForm component, it will update the state of the App component and render the updated TaskList component. When a user edits a task using the EditTaskForm component, it will update the state of the App component and render the updated TaskList component. When a user marks a task as complete or deletes a task, it will update the state of the App component and render the updated TaskList component.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Testing: The to-do list app can be tested using Jest and Enzyme to ensure that it properly adds, edits, and deletes tasks, and marks them as complete.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment: The to-do list app can be deployed on a web server using a cloud hosting service like AWS or Heroku.
+![Screenshot 2023-03-04 at 2 33 18 PM](https://user-images.githubusercontent.com/72609177/224543280-5d5deaca-1a15-4773-b441-bdbbf8c639d4.png)
